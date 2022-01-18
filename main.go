@@ -202,6 +202,6 @@ func main() {
 		c.JSON(http.StatusOK, appleAppSiteAssociation)
 	})
 
-	log.Println("Starting server on localhost:3000")
-	log.Fatal(r.Run(":3000"))
+	log.Println("Starting server on localhost")
+	log.Fatal(r.Run(""))
 }
