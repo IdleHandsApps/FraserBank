@@ -1,0 +1,5 @@
+apiUrl: "https://a6743613-8196-47a3-b4ff-7a3480ff0520.authentication.hanko.io"
+apiKeyId: "94055e2e-6e32-4d00-8ccb-285e2316392d"
+apiSecret: "3a-Y0I6JxdUkNOf2FAPZQcUhayTWgBOUMUX3qs53w0XXSZr01NqVCA0KfvNGqOuH"
+sessionSecret: "FraserBankSecret"    # Change in Production
+iosAppId: "com.idlehandsapps.fraserbank"
