@@ -29,10 +29,9 @@ steps:
       'GOARCH=amd64'
     ]
     args: ['go', 'build', '-o', 'deploy/usr/bin/app', '.']
-    # args: ['go', 'build', '-o', 'deploy/usr/bin/app', '.']
   # Copy the systemd service file into the deploy directory.
   - name: 'debian'
-    args: ['cp', 'my-app.service', 'deploy/etc/systemd/system/']
+    args: ['cp', 'fraserbank.service', 'deploy/etc/systemd/system/']
   # Compress the depoy directory.
   - name: 'debian'
     args: ['tar', '-czf', '${_DEPLOY_FILENAME}', '-C', './deploy', '.']
