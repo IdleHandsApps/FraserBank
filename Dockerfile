@@ -36,6 +36,6 @@ COPY ./templates /bin/templates
 # Uncomment to run the binary in "production" mode:
 # ENV GO_ENV=production
 
-EXPOSE 9000
+EXPOSE 8080
 
 ENTRYPOINT /bin/app
